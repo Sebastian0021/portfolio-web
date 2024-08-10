@@ -1,0 +1,58 @@
+.subtitle {
+  position: relative;
+  /* background-color: #757575; */
+}
+
+.subtitle::before {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 1px;
+  background-color: #757575; /* Asume que tienes definida esta variable */
+  left: 0;
+  top: 1rem;
+}
+
+.animation {
+  background: url('../assets/carnet.jpg'); /* Imagen de fondo */
+  background-repeat: no-repeat; /* No repetir la imagen */
+  background-position: center; /* Centrar la imagen */
+  background-size: cover; /* Cubrir todo el contenedor */
+  box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%); /* Sombra interior blanca */
+  order: 1; /* Orden de visualización en un contenedor flexible */
+  justify-self: center; /* Alineación horizontal en un contenedor de grilla */
+  width: 300px; /* Ancho */
+  height: 300px; /* Alto */
+  animation: profile_animate 8s ease-in-out infinite 1s; /* Animación */
+}
+
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.home_scroll {
+  margin-left: 9.25rem;
+}
+
+.wheel {
+  animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(3.75rem);
+  }
+}
