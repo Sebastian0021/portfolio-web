@@ -4,6 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+.title {
+  @apply text-3xl text-[#333333] font-bold;
+}
+
+.section {
+  @apply w-full px-3 flex flex-col justify-center items-center;
+}
+
 body {
   background-color: #fafafa;
   color: #757575;

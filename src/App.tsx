@@ -1,6 +1,7 @@
 import About from './components/About'
 import Header from './components/Header'
 import Home from './components/Home'
+import Qualification from './components/Qualification'
 import Skills from './components/Skills'
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
         <Home></Home>
         <About></About>
         <Skills />
+        <Qualification />
       </main>
     </>
   )

@@ -4,12 +4,12 @@ import CV from '../assets/CV Sebastian Peñaloza.pdf'
 
 const About = () => {
   return (
-    <section className="w-full px-3 flex flex-col justify-center items-center my-40 gap-6">
-      <h2 className="text-3xl text-[#333333] font-bold">About Me</h2>
+    <section className="section mt-40 md:mt-96 gap-6">
+      <h2 className="title">About Me</h2>
       <h3>My Introduction</h3>
-      <div className="flex flex-col items-center gap-4 md:flex-row md:gap-20">
+      <div className="flex flex-col items-center gap-8 md:flex-row md:gap-20">
         <img className="w-80 rounded-2xl shadow-xl" src={carnet} alt="" />
-        <div className="flex flex-col gap-4 md:gap-0 md:h-full md:justify-between">
+        <div className="flex flex-col gap-8 md:gap-0 h-full justify-between">
           <Topics />
           <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in praesentium, tempora voluptate eos aperiam
