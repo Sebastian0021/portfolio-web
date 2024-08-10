@@ -1,4 +1,4 @@
-import carnet from '../assets/carnet.jpg'
+// import carnet from '../assets/carnet.jpg'
 import './Home.css'
 
 const Home = () => {
