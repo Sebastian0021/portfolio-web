@@ -12,8 +12,21 @@
   @apply w-full px-3 flex flex-col justify-center items-center;
 }
 
+.btn {
+  @apply bg-[#333333] flex items-center justify-center rounded-2xl w-fit px-6 py-4 text-white font-semibold gap-2;
+}
+
 body {
   background-color: #fafafa;
   color: #757575;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+li:hover {
+  font-weight: bold !important;
 }
