@@ -1,0 +1,7 @@
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #757575;
+  transform: translate(6px, -7px);
+}
