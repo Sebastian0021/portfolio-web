@@ -1,7 +1,8 @@
-import About from './components/About'
+import About from './components/About/About'
 import Header from './components/Header'
-import Home from './components/Home'
-import Qualification from './components/Qualification'
+import Home from './components/Home/Home'
+import Portfolio from './components/Portfolio'
+import Qualification from './components/Qualification/Qualification'
 import Skills from './components/Skills'
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
         <About></About>
         <Skills />
         <Qualification />
+        <Portfolio />
       </main>
     </>
   )
